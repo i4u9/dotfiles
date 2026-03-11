@@ -68,7 +68,7 @@
     enable = true;
     shellInit = ''
       if [ -z "$WAYLAND_DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
-	start-hyprland
+		start-hyprland
       fi
     '';
   };
